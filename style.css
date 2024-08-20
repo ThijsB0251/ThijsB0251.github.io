@@ -1,0 +1,60 @@
+body {
+    font-family: fantasy;
+    background-color: #ffffff;
+}
+
+.header {
+    font-size: 40;
+    position: absolute;
+    margin-left: 42%;
+    font-style: italic;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 100;
+    border-radius: 30px;
+}
+
+#backgroundcontainer {
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-style: italic;
+    transform: translate(-50%, -50%);
+}
+
+.showoff {
+    background-color: rgba(145, 142, 143, 0.19);
+    border-radius: 5px;
+}
+
+.showoff {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.containershowoff {
+    display: inline-block;
+    border: 2px solid palegreen;
+    padding: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 15rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.showoffheader {
+    font-size: 25;
+    font-style: italic;
+}
