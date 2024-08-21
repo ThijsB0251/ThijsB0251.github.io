@@ -1,60 +1,139 @@
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
-    font-family: fantasy;
-    background-color: #ffffff;
+    background-image: url(background.jpg);
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
 }
 
-.header {
-    font-size: 40;
-    position: absolute;
-    margin-left: 42%;
+.icon {
+    width: 2rem;
+    display: flex;
+}
+
+.navbar {
+    font-weight: bold;
+    margin-left: 35%;
+}
+
+.nav {
+    margin-left: 5%;
+}
+
+
+/*index.html*/
+
+.hero__container {
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 80rem;
+    height: 40rem;
+    border-radius: 30px;
+    border: solid 2px #ffffff;
+    background-color: rgba(151, 151, 151, 0.452);
+}
+
+.hero__text {
+    text-align: center;
+    font-weight: bold;
     font-style: italic;
 }
 
-.container {
-    position: relative;
+.hero__subtext {
     text-align: center;
-    font-size: 100;
-    border-radius: 30px;
+    font-size: 17;
 }
 
-#backgroundcontainer {
-    border-radius: 30px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+/*doneren.html*/
+
+.hero__text__soon {
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
     font-style: italic;
-    transform: translate(-50%, -50%);
+    font-size: 50;
 }
 
-.showoff {
-    background-color: rgba(145, 142, 143, 0.19);
-    border-radius: 5px;
+
+/*spawnlist.html*/
+
+.spawnlists {
+    display: flex;
 }
 
-.showoff {
-    margin: 1rem;
-    padding: 2rem 2rem;
+.hero__containerspawn {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 25rem;
+    height: 35rem;
+    border-radius: 30px;
+    border: solid 2px #ffffff;
+    background-color: rgba(151, 151, 151, 0.452);
+}
+
+.hero__textspawn {
     text-align: center;
+    font-weight: bold;
+    font-style: italic;
 }
 
-.containershowoff {
-    display: inline-block;
-    border: 2px solid palegreen;
-    padding: 4rem;
-    padding-top: 1rem;
-    padding-bottom: 15rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    border-radius: 25px;
-    vertical-align: middle;
+.hero__containerspawn2 {
+    margin-top: 5%;
+    margin-left: 7%;
+    width: 25rem;
+    height: 35rem;
+    border-radius: 30px;
+    border: solid 2px #ffffff;
+    background-color: rgba(151, 151, 151, 0.452);
 }
 
-.showoffheader {
-    font-size: 25;
+.hero__containerspawn3 {
+    margin-top: 5%;
+    margin-left: 7%;
+    width: 25rem;
+    height: 35rem;
+    border-radius: 30px;
+    border: solid 2px #ffffff;
+    background-color: rgba(151, 151, 151, 0.452);
+}
+
+
+/*commands.html*/
+
+.commandslist {
+    display: flex;
+}
+
+.hero__container__command {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 25rem;
+    height: 35rem;
+    border-radius: 30px;
+    border: solid 2px #ffffff;
+    background-color: rgba(151, 151, 151, 0.452);
+}
+
+.hero__container__command2 {
+    margin-top: 5%;
+    margin-left: 7%;
+    width: 25rem;
+    height: 35rem;
+    border-radius: 30px;
+    border: solid 2px #ffffff;
+    background-color: rgba(151, 151, 151, 0.452);
+}
+
+.hero__text__command {
+    text-align: center;
+    font-weight: bold;
     font-style: italic;
 }
